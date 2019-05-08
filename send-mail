@@ -1,0 +1,2 @@
+# Usage: ./send-mail <recipient> <subject> <message>
+echo "$3" | mail -s "$2" $1
